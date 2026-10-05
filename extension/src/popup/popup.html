@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ContextShield AI</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <span class="shield-icon">🛡️</span>
+        <div>
+          <h1>ContextShield <span class="accent">AI</span></h1>
+          <p class="tagline">Your AI Privacy Firewall</p>
+        </div>
+      </div>
+      <div class="status">
+        <span class="status-dot"></span>
+        <span class="status-text">Protected</span>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-analyzed">0</div>
+        <div class="stat-label">Prompts analyzed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-detected">0</div>
+        <div class="stat-label">Sensitive details</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-protected">0</div>
+        <div class="stat-label">Prompts protected</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-reduced">63%</div>
+        <div class="stat-label">Avg exposure reduced</div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button class="action-btn primary" id="btn-scan">
+        <span>🔍</span> Scan Current Prompt
+      </button>
+      <button class="action-btn secondary" id="btn-protect">
+        <span>🛡️</span> Protect Prompt
+      </button>
+      <button class="action-btn tertiary" id="btn-dashboard">
+        <span>📊</span> Open Dashboard
+      </button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-item">
+        <span class="footer-dot"></span> Local mode active
+      </div>
+      <div class="footer-item" id="footer-site">
+        No AI site detected
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

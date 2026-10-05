@@ -1,0 +1,11 @@
+{
+  "name": "contextshield-extension",
+  "version": "1.0.0",
+  "description": "ContextShield AI Chrome Extension — Your AI Privacy Firewall",
+  "scripts": {
+    "build": "echo 'Copy src/ contents to extension root for loading. No build step required for vanilla JS extension.'"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.260"
+  }
+}

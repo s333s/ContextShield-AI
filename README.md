@@ -94,7 +94,7 @@ React · TypeScript · Vite · Tailwind CSS · Lucide React · Browser APIs · L
 
 - **Live demo:** https://contextshield-ai-73aj.bolt.host/
 - **GitHub:** https://github.com/s333s/ContextShield-AI
-- **Youtube vedio:** https://youtu.be/e7kOp-VXkc8?si=Xa-Ru3RaXCl9U45W
+- **Youtube vedio:** [YouTube Vedio](https://youtu.be/e7kOp-VXkc8?si=Xa-Ru3RaXCl9U45W)
 ---
 
 <p align="center"><strong>Give AI exactly what it needs — and nothing more.</strong></p>

@@ -2,7 +2,7 @@
 # ContextShield AI — Your AI Privacy Firewall
 
 <p align="center">
-  <img src="public/ContextShield AI.jpg" alt="ContextShield AI logo" width="112" />
+  <img src="public/ContextShield AI.jpg" alt="ContextShield AI logo" width="720" />
 </p>
 
 <p align="center"><strong>Know what you're revealing before AI sees it.</strong></p>
